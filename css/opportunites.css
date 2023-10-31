@@ -1,0 +1,33 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+}
+.Content
+{
+    display: grid;
+    grid-template-columns: repeat(3, 33vw);
+    justify-content: center;
+    align-items: center;
+}
+.item
+{
+    font-family: 'poppins',sans-serif;
+    font-size: small;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item h3
+{
+    font-size: small;
+    text-decoration: underline;
+}
+.item img
+{
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+}
